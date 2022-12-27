@@ -35,6 +35,7 @@ def prompt_delete_book():
 
 
 def menu():
+        database.create_book_table()
         user_input = input(UserChoise)
 
         while user_input != 'q':
